@@ -1,0 +1,32 @@
+.con{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.backimg{
+    position: absolute;
+    background-image: url('https://get.pxhere.com/photo/desk-book-wood-chair-interior-building-reading-equipment-shelf-furniture-room-bookshelf-education-bookstore-literature-library-books-shelves-toys-records-information-figurines-speakers-cupboard-knowledge-memorabilia-albums-bookselling-lps-946980.jpg');
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.MainContent{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.select{
+    text-align: center;
+    width: 45%;
+}
+.selects{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

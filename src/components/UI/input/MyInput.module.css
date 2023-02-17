@@ -1,0 +1,17 @@
+.MyInput{
+    width: 100%;
+    font-family: 'Righteous';
+    outline: none;
+    background: rgba(19, 19, 19, 0.438);
+    padding: 4px;
+    border: 3px solid  white;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+  
+}
+.MyInput::placeholder{
+    color: rgba(255, 255, 255, 0.689);
+    font-family: 'Righteous';
+    font-size: 18px;
+}
