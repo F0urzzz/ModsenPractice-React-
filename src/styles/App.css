@@ -41,3 +41,64 @@ body{
 .loadmoreBtn:hover{
     background-color: rgb(65, 88, 240);
 }
+
+.resStyles{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.h1Style{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.loadBtn{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+.bookTitle{
+    padding: 5px;
+    font-size: 12px;
+}
+.bookDescr{
+    font-size: 10px;
+    color: gray;
+    padding: 5px;
+}
+.bookindex{
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.searchItemTitle{
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.inputStyle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pSearch{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.bookCloseBtn{
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import BookCard from "./BookCard";
-import '../styles/BookList.css'
+import BookCard from "../BookCard/BookCard";
+import '..//../styles/BookList.css'
 
 const BookList = ({books, forOpenBook}) =>{
     const [windowWidth, setWindowWidth] = useState(window.screen.width)

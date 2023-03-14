@@ -1,0 +1,1 @@
+export const paths = {pathtostart: '/', pathtomain: '/main-page'}
